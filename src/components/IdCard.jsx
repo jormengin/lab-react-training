@@ -2,6 +2,7 @@ import React from "react";
 
 
 
+
 const IdCard =(props)=>{
     const {firstName, lastName, gender, picture, height,birth} = props;
     const formattedBirth = new Date(birth).toLocaleDateString();
