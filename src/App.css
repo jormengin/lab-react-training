@@ -28,3 +28,47 @@ p{
 #user-container>*>*{
   list-style: none;
 }
+.fith-iteration{
+  width: 360px;
+  height: 220px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  align-items: center;
+}
+.logo-container{
+  display: flex;
+ flex-direction: row;
+ justify-content: flex-end;
+ width: 100%;
+}
+.logo{
+  max-width: 55px;
+}
+.number-container{
+  display: flex;
+  align-items: center;
+}
+.number-container p{
+  font-size: 2.4rem;
+  line-height: 1;
+  vertical-align: sub;
+}
+.asterisc{
+ vertical-align: sub;
+}
+.detail-container{
+  display:flex;
+  width: 100%;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.sub1{
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+}
