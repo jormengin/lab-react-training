@@ -24,13 +24,13 @@ const CreditCard = (props) => {
         {' '}
         {type === 'Visa' ? (
           <img
-          alt='bank-logo'
+            alt="bank-logo"
             src="https://upload.wikimedia.org/wikipedia/commons/4/41/Visa_Logo.png?20091122143639"
             className="logo"
           />
         ) : (
           <img
-          alt='bank-logo-2'
+            alt="bank-logo-2"
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Mastercard-logo.svg/1544px-Mastercard-logo.svg.png?20210817144358"
             className="logo"
           />
