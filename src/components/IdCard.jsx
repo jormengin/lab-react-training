@@ -4,7 +4,7 @@ const IdCard = (props) => {
   const { firstName, lastName, gender, picture, height, birth } = props;
   const formattedBirth = new Date(birth).toLocaleDateString();
   return (
-    <div className="response-container" id='user-container'>
+    <div className="response-container" id="user-container">
       <img src={picture} alt={firstName} />
       <div className="user-content">
         <ul>
