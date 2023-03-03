@@ -8,6 +8,7 @@ import CreditCard from './components/CreditCard';
 import Rating from './components/Rating';
 import DriverCard from './components/DriverCard';
 import LikeButton from './components/LikeButton';
+import ClickablePicture from './components/ClickablePicture';
 
 function App() {
   return (
@@ -99,8 +100,13 @@ function App() {
     licensePlate: "BE33ER"
   }}
 />
-<h1> Seventh Iteration</h1>
+<h1> Eighth Iteration</h1>
 <LikeButton />
+<h1> Ninth Iteration</h1>
+<ClickablePicture
+  img='maxence.png'
+  imgClicked='maxence-glasses.png'
+/>
     </div>
   );
 }
